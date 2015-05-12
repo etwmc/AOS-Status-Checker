@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3319FFA61B01E59D006025F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3319FF9E1B01E59D006025F9 /* AppDelegate.swift */; };
+		3319FFA71B01E59D006025F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3319FF9F1B01E59D006025F9 /* ViewController.swift */; };
+		3319FFA81B01E59D006025F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3319FFA01B01E59D006025F9 /* Images.xcassets */; };
+		3319FFA91B01E59D006025F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3319FFA21B01E59D006025F9 /* Main.storyboard */; };
+		3319FFAA1B01E59D006025F9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3319FFA31B01E59D006025F9 /* Info.plist */; };
+		3319FFAC1B01E5C4006025F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3319FFAB1B01E5C4006025F9 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3319FF7E1B01E574006025F9 /* AOS Order Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOS Order Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3319FF9E1B01E59D006025F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3319FF9F1B01E59D006025F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3319FFA01B01E59D006025F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3319FFA11B01E59D006025F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3319FFA31B01E59D006025F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3319FFAB1B01E5C4006025F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3319FF7B1B01E574006025F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3319FFAC1B01E5C4006025F9 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3319FF701B01E56B006025F9 = {
+			isa = PBXGroup;
+			children = (
+				3319FFAB1B01E5C4006025F9 /* WebKit.framework */,
+				3319FFA51B01E59D006025F9 /* AOS Order Checker */,
+				3319FF7F1B01E574006025F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3319FF7F1B01E574006025F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3319FF7E1B01E574006025F9 /* AOS Order Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3319FFA41B01E59D006025F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3319FFA31B01E59D006025F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3319FFA51B01E59D006025F9 /* AOS Order Checker */ = {
+			isa = PBXGroup;
+			children = (
+				3319FF9E1B01E59D006025F9 /* AppDelegate.swift */,
+				3319FF9F1B01E59D006025F9 /* ViewController.swift */,
+				3319FFA01B01E59D006025F9 /* Images.xcassets */,
+				3319FFA21B01E59D006025F9 /* Main.storyboard */,
+				3319FFA41B01E59D006025F9 /* Supporting Files */,
+			);
+			name = "AOS Order Checker";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3319FF7D1B01E574006025F9 /* AOS Order Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3319FF981B01E574006025F9 /* Build configuration list for PBXNativeTarget "AOS Order Checker" */;
+			buildPhases = (
+				3319FF7A1B01E574006025F9 /* Sources */,
+				3319FF7B1B01E574006025F9 /* Frameworks */,
+				3319FF7C1B01E574006025F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOS Order Checker";
+			productName = "AOS Order Checker";
+			productReference = 3319FF7E1B01E574006025F9 /* AOS Order Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3319FF711B01E56B006025F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					3319FF7D1B01E574006025F9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3319FF741B01E56B006025F9 /* Build configuration list for PBXProject "AOS Order Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3319FF701B01E56B006025F9;
+			productRefGroup = 3319FF7F1B01E574006025F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3319FF7D1B01E574006025F9 /* AOS Order Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3319FF7C1B01E574006025F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3319FFA81B01E59D006025F9 /* Images.xcassets in Resources */,
+				3319FFA91B01E59D006025F9 /* Main.storyboard in Resources */,
+				3319FFAA1B01E59D006025F9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3319FF7A1B01E574006025F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3319FFA71B01E59D006025F9 /* ViewController.swift in Sources */,
+				3319FFA61B01E59D006025F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3319FFA21B01E59D006025F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3319FFA11B01E59D006025F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3319FF751B01E56B006025F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3319FF761B01E56B006025F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3319FF991B01E574006025F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3319FF9A1B01E574006025F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3319FF741B01E56B006025F9 /* Build configuration list for PBXProject "AOS Order Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3319FF751B01E56B006025F9 /* Debug */,
+				3319FF761B01E56B006025F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3319FF981B01E574006025F9 /* Build configuration list for PBXNativeTarget "AOS Order Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3319FF991B01E574006025F9 /* Debug */,
+				3319FF9A1B01E574006025F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3319FF711B01E56B006025F9 /* Project object */;
+}

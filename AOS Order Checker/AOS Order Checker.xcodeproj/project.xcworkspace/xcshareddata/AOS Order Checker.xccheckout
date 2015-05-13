@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3442A873-BF45-4FC9-B83E-AE503F02009C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AOS Order Checker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6417F2CCFA5B56B8AB79D65BB5F72A77DFCAE5E1</key>
+		<string>https://github.com/etwmc/AOS-Status-Checker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AOS Order Checker/AOS Order Checker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6417F2CCFA5B56B8AB79D65BB5F72A77DFCAE5E1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/etwmc/AOS-Status-Checker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6417F2CCFA5B56B8AB79D65BB5F72A77DFCAE5E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6417F2CCFA5B56B8AB79D65BB5F72A77DFCAE5E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AOS%20Order%20Checker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
